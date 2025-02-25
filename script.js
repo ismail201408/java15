@@ -84,9 +84,10 @@
   });
   
   q1.addEventListener("click", () => {
-   localStorage.setItem("Name", a)
-   localStorage.setItem("Email", d)
-   localStorage.setItem("Password", b)
-   localStorage.setItem("Confirm Password", c)
+   sessionStorage.setItem("Name", a.value)
+   sessionStorage.setItem("Email", d.value)
+   sessionStorage.setItem("Password", b.value)
+   sessionStorage.setItem("Confirm Password", c.value)
    location.href = "indexx.html"
+
   });

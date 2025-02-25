@@ -1,4 +1,1 @@
-localStorage.getItem("Name");
-localStorage.getItem("Email");
-localStorage.getItem("Password");
-localStorage.getItem("Confirm Password");
+document.getElementById("demo").innerHTML = "Username = " + sessionStorage.getItem("Name") + "; Email = " + sessionStorage.getItem("Email") +";  Password = " + sessionStorage.getItem("Password") +";  Confirm Password = " + sessionStorage.getItem("Confirm Password")
